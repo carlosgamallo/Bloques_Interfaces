@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="389.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bloque1.HelloController">
+   <children>
+      <Text layoutX="83.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bloque1" textAlignment="CENTER" wrappingWidth="223.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="12.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduce una palabra" wrappingWidth="141.13671875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="boton_palabra" layoutX="328.0" layoutY="66.0" mnemonicParsing="false" onMouseClicked="#introduce_palabra" prefHeight="25.0" prefWidth="40.0" text="OK" />
+      <TextField fx:id="campo_palabra" layoutX="157.0" layoutY="65.0" />
+      <TextField fx:id="campo_letra" layoutX="157.0" layoutY="160.0" />
+      <Text layoutX="12.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduce una letra" wrappingWidth="141.13671875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="boton_palabra1" layoutX="328.0" layoutY="160.0" mnemonicParsing="false" onMouseClicked="#cuenta_letras" prefHeight="25.0" prefWidth="40.0" text="OK" />
+      <Label fx:id="cambia_palabra" layoutX="157.0" layoutY="105.0" prefHeight="32.0" prefWidth="100.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="contador" layoutX="35.0" layoutY="214.0" prefHeight="35.0" prefWidth="325.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
